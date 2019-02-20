@@ -1,0 +1,74 @@
+/* RESET */
+*{margin:0; padding:0; font-size:100%; border:none; outline:none;}
+img{max-width: 100%;}
+ul{list-style: none;}
+a{text-decoration: none;}
+h2{font-size:1.5em;color:#222; cursor: default;}
+p{font-size:1em; color: black; cursor: default;}
+span{cursor: default;}
+body{background-image: url("../img/fundo-site.jpg"); opacity:0.9; max-width:100%; background-repeat: no-repeat;}
+.titulos {font-size:3em; padding: 5px; text-align: center; margin: 0px 30px 0px 30px;}
+
+/* CABECALHO */
+#cabecalho{width:100%; float: left; padding-top:5px ; background-color:#66cccc; border-bottom-left-radius:2px; border-bottom-right-radius:2px;
+border-bottom:solid 2px #66cccc; box-shadow: 0px 5px 50px black; z-index: 9}
+.logo{float:left; padding:13px; margin-top:2px; margin-left:40px; border-left:inset 6px #66f; border-bottom: inset 3px #667;}
+.logo span{cursor: pointer;}
+.logo-text{font-size: 50px; color:black; font-weight: bold}
+.logo-text-cons{color:gray; font-size:40px;}
+
+/* MENU */
+.menu{width:62%; float:right; margin-top:2px;}
+.menu-indice{width:62%; float:right; text-align:center; font-size:2em; color:#333; border-bottom: inset 3px #667; border-right:inset 6px #66f; margin:0px 50px 0 50px; cursor: default;}
+.menu li{width: 200px; height:50px; float:left; font-size:25px; color: black;}
+.menu img{width:27%; float:left; margin-right:3px;}
+.menu a{color: inherit; font-weight: bold;}
+.menu span{vertical-align: -13px; cursor:pointer;}
+.menu li:hover{color: white; filter: brightness(3);}
+
+/* BARRAS DE PROGRESSO */
+#nav-direito{width:35%; float:left; padding:10px; margin-left:15px; margin-top:10px;}
+.barra-de-progresso{width: 100%; border-radius:5px; box-shadow:10px 10px 100px black; background-color: rgba(255,255,255,0.6); transition-duration: .2s; opacity:.6; font-size:92%;}
+.barra-de-progresso:hover{background-color: rgba(255,255,255,1); opacity:1; font-size:100%;}
+.barra-de-progresso ul{padding: 35px 35px;}
+.barra-de-progresso li{padding: 5px; margin-bottom:30px; border-left:inset 5px #66f;border-radius:4px;}
+.barra-de-progresso img{width:34px; height:34px;}
+.barra-de-progresso span{padding: 5px; font-size:1.1em; color: black; vertical-align:7px; font-weight: bold}
+.barra-de-progresso i{font-size:12px; color: gray; padding-left:5px;}
+.espaco{width: 85%;margin-top:18px; margin-left:26px; border-bottom: ridge 2px #444444; box-shadow: 0px 5px 100px black;}
+.liquido{border-bottom:solid 5px lime; border-radius:2px;}
+.porcentagem{text-align: right; color: #444444; font-size:20px;}
+.sub-mais-detalhes{margin-right: 30px; margin-top:-8px; text-align:right; font-size:16px; color: #444;}
+.mais-detalhes{color: gray; text-align:right; font-size: 0px; transition-duration: 1s;}
+.barra-de-progresso li:hover .mais-detalhes{font-size: 14px;}
+
+/* CURRICULO */
+#section-meio{width: 38%; float: left; padding: 10px; margin-top:10px;}
+.curriculo{border-radius:5px; box-shadow:10px 10px 100px black; background-color: rgba(255,255,255,0.6);  transition-duration: .2s; opacity:0.6; font-size:90%;}
+.curriculo:hover{background-color: rgba(255,255,255,1); opacity:1; font-size:100%;}
+.itens-principais{padding: 15px 35px 35px 35px;}
+.sub-itens{padding:20px; margin-top:18px; margin-bottom: 15px; border-left:inset 5px #66f; border-right:inset 5px #66f; border-bottom: inset 1px gray;border-radius:4px;}
+.curriculo li{padding: 3.5px; font-size:19px;}
+.curriculo span{font-size: 1.6em; font-weight: bold;}
+
+/* SOBRE MIM */
+#aside-direita{width: 20%; float:left; padding: 10px; margin-top:10px;}
+.sobre-mim{border-radius: 5px; box-shadow:10px 10px 100px black; background-color: rgba(255,255,255,0.6); transition-duration: .2s; opacity:0.6; font-size:90%;}
+.sobre-mim:hover{background-color: rgba(255,255,255,1); opacity:1; font-size:100%;}
+.perfil{width:200px; padding:5px 35px 10px 35px;}
+.sobre-mim ul{padding:5px 8px 5px 8px;}
+.sobre-mim li{font-size:19px; font-weight: bold;}
+.sobre-mim span{font-weight: bold; color: #003152; font-size:22px;}
+
+/* Rodapé */
+#roda-pe{width:94%; float:left ; padding:10px 0px 10px 0px; margin: 0px 0px 0px 6%;}
+#roda-pe h2{text-align: center; font-size: 2.1em; font-weight: bold;}
+#roda-pe img{width:8%; margin-right: 7px; padding-left: 3px;}
+#roda-pe li{color:black; font-size: 1.2em; padding:10px 5px 5px 5px; margin: 0px 10px 0px 10px;  border-bottom: inset 1px gray;}
+#roda-pe span{vertical-align: 8px}
+.contatos{width: 28%; float:left; padding: 10px; border-radius: 5px; background-color:white; background-color: rgba(255,255,255,0.6); transition-duration: .2s; opacity:0.6; font-size:98%;}
+.contatos:hover{background-color: rgba(255,255,255,1); opacity:1; font-size:100%;}
+.redes-sociais{width: 28%; float:left; padding: 10px; margin: 0px 20px 0px 20px; border-radius: 5px; background-color:white; background-color: rgba(255,255,255,0.6); transition-duration: .2s; opacity:0.6; font-size:98%;}
+.redes-sociais:hover{background-color: rgba(255,255,255,1); opacity:1; font-size:100%;}
+.comunidades{width: 28%; float:left; padding: 10px; border-radius: 5px; background-color:white; background-color: rgba(255,255,255,0.6); transition-duration: .2s; opacity:0.6; font-size:98%;}
+.comunidades:hover{background-color: rgba(255,255,255,1); opacity:1; font-size:100%;}
