@@ -1,5 +1,6 @@
-# matsuCons
-Pagina do Programador/'Curriculo' (BETA)
+# 'Matsunaga Consultoria'
+Pagina do Programador (beta)
+
 ===================================================================
 Página teste, exercício para fixação de conteudos HTML e CSS
 
